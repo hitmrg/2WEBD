@@ -72,7 +72,7 @@ export function DeepSearch() {
               id="geographic-container"
               type="text"
               name="geographic"
-              value={geographic}
+              value={naziProvenance ? "Europe" : geographic}
               onChange={(e) => setGeographic(e.target.value)}
             ></input>
             <label htmlFor="type">Object Type / Material :</label>
@@ -88,7 +88,7 @@ export function DeepSearch() {
               id="start-date-container"
               type="number"
               name="start_date"
-              value={startDate}
+              value={naziProvenance ? 1933 : startDate}
               onChange={(e) => setStartDate(parseInt(e.target.value))}
             ></input>
             <label htmlFor="end-date">End Date :</label>
@@ -96,7 +96,7 @@ export function DeepSearch() {
               id="end-date-container"
               type="number"
               name="end_date"
-              value={endDate}
+              value={naziProvenance ? 1945 : endDate}
               onChange={(e) => setEndDate(parseInt(e.target.value))}
             ></input>
             <div className="next-to-each-other">
