@@ -1,0 +1,86 @@
+.card-container {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 400px;
+  max-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-container:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card-image-container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-author {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.card-date {
+  font-size: 14px;
+  color: #666666;
+}
+
+.card-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-container:hover .card-overlay {
+  opacity: 1;
+}

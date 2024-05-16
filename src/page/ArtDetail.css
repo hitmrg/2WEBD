@@ -1,0 +1,5 @@
+.art-detail-container {
+  margin: 0 auto;
+  /* Prend toute la hauteur de la fenêtre */
+  width: 98vw; /* Prend toute la largeur de la fenêtre */
+}

@@ -1,0 +1,77 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.button-filter-container {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-filter-container:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.next-to-each-other {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.next-to-each-other div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.next-to-each-other div input {
+  width: auto;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}

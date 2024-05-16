@@ -1,0 +1,116 @@
+.detail-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.global-details {
+  text-align: center;
+}
+
+.detail-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-container {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 40vw;
+}
+
+.main-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail-button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.thumbnail-button.active {
+  border: 2px solid blue;
+}
+
+.thumbnail-image {
+  border-radius: 5%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.resource-link,
+.resource-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.resource-link:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.Overview {
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}
+
+.artist-name2 {
+  color: white;
+}
+
+.artist-name2:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.artist-nationality2 {
+  font-style: italic;
+  color: white;
+}
+
+.indicator {
+  font-weight: bold;
+  color: white;
+}
+
+.art-link {
+  color: white;
+}
+
+.art-link:hover {
+  color: #007bff;
+}
