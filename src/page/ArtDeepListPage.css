@@ -67,3 +67,21 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1200px) {
+  .art-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .art-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .art-list {
+    grid-template-columns: 1fr;
+  }
+}

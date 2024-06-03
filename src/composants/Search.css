@@ -47,3 +47,22 @@
 .buttonSearch:hover {
   background-color: #0056b3;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .menu {
+    margin-top: 10px;
+  }
+
+  .menu a {
+    margin: 5px 0;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+}

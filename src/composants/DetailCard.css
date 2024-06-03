@@ -114,3 +114,13 @@
 .art-link:hover {
   color: #007bff;
 }
+
+@media screen and (max-width: 768px) {
+  .detail-card {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .button-container {
+    width: 60vw;
+  }
+}

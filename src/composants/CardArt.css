@@ -84,3 +84,60 @@
 .card-container:hover .card-overlay {
   opacity: 1;
 }
+
+@media (min-width: 576px) {
+  .card-container {
+    max-width: 400px;
+  }
+
+  .card-title {
+    font-size: 1em;
+  }
+
+  .card-image-container {
+    height: 250px;
+  }
+
+  .card-button {
+    padding: 10px 15px;
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    max-width: 500px;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+  }
+
+  .card-image-container {
+    height: 300px;
+  }
+
+  .card-button {
+    padding: 12px 18px;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-container {
+    max-width: 600px;
+  }
+
+  .card-title {
+    font-size: 1.4em;
+  }
+
+  .card-image-container {
+    height: 350px;
+  }
+
+  .card-button {
+    padding: 14px 20px;
+    font-size: 1.3em;
+  }
+}
